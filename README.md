@@ -7,8 +7,11 @@ In this project your goal is to safely navigate around a virtual highway with ot
 ## My implementation
 ### Path planner
 The path planning code is for simplification purposes self contained in the src/main.cpp file. As shown during the course, it basically consist of three steps:
+
 1- Situation analysis: observe the surrounding traffic information, given by the sensor fusion, and predict the trajectories of the other vehicles
+
 2- Behavior planning: based on the situation analysis, decide what is the best thing for the ego vehicle to do.
+
 3- Trajectory generation: generate a smooth trajectory as a result of the behavior planning.
 
 ### Situation analysis
