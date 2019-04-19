@@ -58,3 +58,6 @@ Here is the data provided from the Simulator to the C++ Program
     git checkout e94b6e1
     ```
 
+### IDE 
+
+Visual studio was used for the development. Solution and project files are added. Code has been modified in order to ensure compatibility for websockets (use of the UWS_VCPKG define).
