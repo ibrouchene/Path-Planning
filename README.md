@@ -23,6 +23,8 @@ We want to drive optimally around the track. This means that if we approach a ve
 ### Trajectory generation
 The line block starts at 378. The suggested spline implementation is used for this. As suggested in the course, the last two points of the previous trajectory are used when possible in order to ensure the smoothest possible trajectory. The decided target speed is used in order to sample the trajectory, ensuring that the speed is respected.
 
+### Result
+The car was able to run one lap without an incident. I get an exception at the very end but I couldnt find the root cause, it seems to happen when the car wraps around the track once.
 
 ## Running the SW
 ### Simulator.
